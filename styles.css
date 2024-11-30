@@ -32,7 +32,7 @@ nav {
 
     .contenedor {
         margin-top:40px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
     }
 
     h1{
@@ -50,4 +50,9 @@ nav {
             z-index: 1000;         /* Asegura que esté por encima de otros elementos */        
             height:auto;
         } 
+
+        .contenedor {
+            margin-bottom: 100px;
+        }
+    
     }

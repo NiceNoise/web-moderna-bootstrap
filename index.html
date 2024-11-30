@@ -9,73 +9,71 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Estilos adicionales personalizados -->
-  <style>
-    body {
-      padding-top: 50px;
-    }
-    .footer {
-      background-color: #f8f9fa;
-      text-align: center;
-      padding: 10px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+  <link rel="stylesheet" href="./styles.css">
+
 </head>
 <body>
-
-  <!-- Barra de navegación con Bootstrap -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Mi Web</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Servicios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+ 
+ <nav>   
+        <a class="menu" href="https://github.com/NiceNoise" target="_blank">Github</a>
+        <a class="menu" href="https://github.com/NiceNoise/web-moderna-bootstrap/blob/main/README.md" target="_blank">Readme</a>        
   </nav>
 
+
   <!-- Sección principal con un título y una breve bienvenida -->
-  <div class="container">
+  <div class="container contenedor">
     <div class="row">
       <div class="col text-center">
-        <h1>Bienvenido a mi página web</h1>
-        <p>Esta es una página web simple utilizando Bootstrap para crear un diseño responsivo y atractivo.</p>
+        <h1>La Web Moderna</h1>
       </div>
     </div>
 
     <!-- Tarjeta de contenido -->
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Imagen de ejemplo">
-          <div class="card-body">
-            <h5 class="card-title">Card título</h5>
-            <p class="card-text">Esta es una descripción breve del contenido de la tarjeta. Puedes colocar cualquier información relevante aquí.</p>
-            <a href="#" class="btn btn-primary">Leer más</a>
-          </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card tarjeta">
+                <img src="https://placehold.co/400x200" class="card-img-top" alt="Imagen de ejemplo">   
+                <div class="card-body">
+                  <h5 class="card-title">HTML</h5>
+                  <p class="card-text">HTML (HyperText Markup Language) es el lenguaje estándar usado para crear y estructurar páginas web. Funciona como el esqueleto de cualquier sitio web, permitiendo organizar el contenido mediante un sistema de etiquetas (tags) que el navegador interpreta para mostrar la información al usuario.</p>
+                  <a href="https://developer.mozilla.org/es/docs/Web/HTML" class="btn btn-outline-success">Leer más</a>
+                </div>
+              </div>
         </div>
-      </div>
+        <div class="col">
+            <div class="card tarjeta">
+                <img src="https://placehold.co/400x200" class="card-img-top" alt="Imagen de ejemplo">
+                <div class="card-body">
+                  <h5 class="card-title">CSS</h5>
+                  <p class="card-text">CSS (Cascading Style Sheets) Hoja de Estilos en Cascada es un lenguaje de diseño que se utiliza para definir la presentación visual de documentos HTML. Si HTML es el esqueleto, CSS es la piel y la ropa que define cómo se ve una página web, permitiendo, de esa forma, una mejor presentación de la web.</p>
+                  <a href="https://developer.mozilla.org/es/docs/Web/HTML" class="btn btn-outline-success">Leer más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card tarjeta">
+                <img src="https://placehold.co/400x200" class="card-img-top" alt="Imagen de ejemplo">
+                <div class="card-body">
+                  <h5 class="card-title">JAVA SCRIPT</h5>
+                  <p class="card-text">JavaScript (JS) es un lenguaje de programación que hace las páginas web interactivas y dinámicas. Si HTML es el esqueleto y CSS la apariencia, JavaScript es el músculo que da vida.</p>
+                  <a href="https://developer.mozilla.org/es/docs/Web/HTML" class="btn btn-outline-success">Leer más</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card tarjeta">
+                <img src="https://placehold.co/400x200" class="card-img-top" alt="Imagen de ejemplo">
+                <div class="card-body">
+                  <h5 class="card-title">HTTP</h5>
+                  <p class="card-text">HTTP (Hypertext Transfer Protocol) es el protocolo de comunicación que permite las transferencias de información en la World Wide Web. Es la base de cualquier intercambio de datos en Internet.</p>
+                  <a href="https://developer.mozilla.org/es/docs/Web/HTML" class="btn btn-outline-success">Leer más</a>
+                </div>
+            </div>
+        </div>
     </div>
   </div>
 
-  <!-- Pie de página -->
-  <div class="footer">
-    <p>&copy; 2024 Mi Web. Todos los derechos reservados.</p>
-  </div>
+
 
   <!-- Enlace al archivo JS de Bootstrap y dependencias de Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
